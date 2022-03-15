@@ -25,16 +25,18 @@ body{
   height:100%;
   background-position: top center;
   background-repeat: no-repeat;
+  margin-top: 32px;
   background-size: contain;
 }
 
 .sidebar{
   grid-area: sidebar;
   background-color:hsl(265, 100%,86%);
-  border-left: 1px solid hsl(265, 100%,56%);
+  border-left: 1px solid hsl(320, 52%, 48%);
   display:flex;
   flex-direction: column;
-  align-items:stretch;
+  
+  /* align-items:stretch; */
 }
 
 /* for divider */
@@ -62,25 +64,27 @@ body{
   left: 10%;
   bottom: 0 ;
   height:1px;
-  background-color: hsl(265, 100%, 46%);
+  background-color: hsl(320, 52%, 48%);
 }
 
 .sidebar-item:hover, .sidebar-item:focus{
-  background-color:hsl(265, 100%,76%);
+  background-color:rgb(231, 133, 255);
 }
 
 .sidebar-item.active {
-  background-color: hsl(265, 100%, 70%);
+  background-color:hsl(320, 52%, 48%);
 }
 .slider-container{
  
   grid-area: slider;
   margin-top: 2rem;
   padding:2rem;
+  color:rgb(231, 133, 255)
 }
 
 .slider {
   width: 100%;
   cursor: pointer;
+   
 }
 
